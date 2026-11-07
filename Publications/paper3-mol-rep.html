@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Paper | Rajdeep Mondal</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../logo.png" type="image/png">
+</head>
+
+<body>
+    <main class="publication-page">
+        <a href="../index.html#publications" class="back-link">
+            ← Back to Publications
+        </a>
+        <h1>
+            Understanding Small-Molecule Embeddings: A Comparative Analysis of Molecular Representation Methods
+        </h1>
+        <p class="publication-meta">
+            Mondal et al. | ICDCIT | 2027
+        </p>
+        <h2>Abstract</h2>
+        <p>
+            One of the most essential task for computational drug discovery is to learn informative drug representations. 
+            Typically, a large set of drug and drug-like molecules are embedded in a latent space, which is then coupled with 
+            a predictive model for several downstream tasks or for generating novel molecules. Various molecular representation 
+            methods have already been developed ranging from the conventional molecular fingerprint-based methods to generative 
+            model-based approaches for representation learning. Based on the choice of learning algorithms, these learned 
+            representations can differ substantially. Furthermore, the latent space geometry as well as the string-based 
+            representation of a molecule can also have notable effect on the molecular representations. In this study, we performed
+            a comparative analysis between \textit{four} molecular representations methods, including variational autoencoder (VAE), 
+            hyperspherical variational autoencoder ($\mathcal{S}$-VAE), ChemBERTa-2, and traditional Morgan fingerprint--based representation. 
+            For VAE, both the simplified molecular input line entry system (SMILES) and self-referencing embedded strings (SELFIES) based 
+            molecular representation were investigated, whereas the remaining methods were analyzed over only the SMILES representations 
+            corresponding to a molecule. Furthermore, the molecular embeddings obtained the representation techniques were also assessed 
+            based on molecular reconstruction, preservation of local chemical neighbourhoods, and the organization of molecular properties 
+            within the embedding spaces. Overall, this study provides an empirical assessment into how the structural and chemical information
+            is reflected by the learned representations of some commonly used molecular embedding strategies. All the codes will be available at
+            <a href="https://github.com/rjdpm/mol-repr" target="_blank" rel="noopener noreferrer">https://github.com/rjdpm/mol-repr</a>.
+        </p>
+        <h2>Publication Details</h2>
+        <p>
+            <strong>Conference Paper:</strong> International Conference on Distributed Computing and Intelligent Technology, 2027
+        </p>
+        <!-- <p>
+            <strong>DOI:</strong> 
+        </p> -->
+        <!-- <a
+            href="https://doi.org/10.1002/psp4.70305"
+            class="button button-primary"
+            target="_blank"
+            rel="noopener noreferrer">
+            Read Full Article →
+        </a> -->
+
+    </main>
+
+</body>
+</html>
