@@ -280,12 +280,6 @@ h1, h2, h3, p { margin-top: 0; }
 .publication-title-link {color: var(--text); text-decoration: none; transition: color 0.25s ease; }
 .publication-title-link:hover {color: var(--accent);}
 
-/* .publication-page {max-width: 900px; margin: 70px auto; padding: 30px; }
-.publication-page h1 {font-family: "Manrope", sans-serif; font-size: clamp(20px, 2vw, 30px); line-height: 1.3; margin-bottom: 15px; }
-.publication-page h2 {margin-top: 35px;}
-.publication-meta {color: var(--muted); margin-bottom: 35px; }
-.back-link {display: inline-block; margin-bottom: 30px; color: var(--accent); text-decoration: none; } */
-
 /* Publication page layout */
 .publication-page {width: min(100% - 48px, 900px); margin: 60px auto 80px; padding: 40px 48px; box-sizing: border-box; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; }
 
@@ -315,3 +309,17 @@ h1, h2, h3, p { margin-top: 0; }
     .publication-page h2 {font-size: 21px;}
     .publication-page p {font-size: 15px; line-height: 1.8; text-align: left; }
     }
+
+
+/* Achievements subsection */
+.achievements-section {margin-top: 42px; padding-top: 20px; border-top: 1px solid var(--border); }
+.achievements-title {font-family: "Manrope", sans-serif; font-size: 22px; font-weight: 800; margin: 0 0 22px; letter-spacing: -0.025em; }
+.achievements-list {margin: 0; padding-left: 24px;}
+.achievements-list li {padding-left: 8px; margin-bottom: 17px; font-size: 15px; line-height: 1.8; color: var(--text); }
+.achievements-list li::marker {color: var(--accent); font-weight: 700;}
+
+@media (max-width: 600px) {
+    .achievements-section {margin-top: 32px; padding-top: 24px;}
+    .achievements-title {font-size: 20px; }
+    .achievements-list li {font-size: 14px; line-height: 1.75;}
+}
